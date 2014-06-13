@@ -1,0 +1,86 @@
+##
+##
+our (
+  @UCD_records,
+  %UCD_GC,
+  %UCD_Scripts,
+  %UCD_BC,
+  %UCD_DT,
+  %UCD_Blocks, @UCD_Blocks,
+  %RFC5892_prop
+);
+package main;
+use strict;
+{
+  use constant GENFILE => "ucd_test.c";
+  my $path = +GEN_PATH (GENFILE);
+  my $fh = c_open_source($path, +BUILD_TEST_PATH(GENFILE), qw(string.h stdio.h));
+  
+
+  # /*
+  # assert_codepoint
+  # (
+  #   uint32_t cp,
+  #   const char *name,
+  #   enum UCD_GENERAL_CATEGORY general_category,
+  #   enum UCD_SCRIPT script,
+  #   enum UCD_BIDI_CLASS bidi_class,
+  #   short bidi_mirrored,
+  #   enum UCD_BLOCK block);
+  #
+  # */
+
+  my @code;
+  my %tests;
+  
+  sub add_test {
+    my ($cp) = @_;
+    return if exists $tests{$cp};
+    my $r = $UCD_records[$cp];
+    if ( defined $r ) {
+      push @code, q/assert_codepoint/ . '('.(join ',', (
+          (sprintf '0x%04X' => $cp),
+          qq("$r->{name}"),
+          $UCD_GC{$r->{gc}},
+          $UCD_Scripts{$r->{script}},
+          $UCD_BC{$r->{bc}},
+          $r->{bm},
+          int($r->{ccc}),
+          $UCD_DT{$r->{dt}},
+          int($r->{nfqc}),
+          $UCD_Blocks{$UCD_Blocks[$cp]},
+          $RFC5892_prop{$r->{rfc5892}},
+        )).')';
+    } else {
+      push @code, q/assert_codepoint_0/ . '('.(
+        (sprintf '0x%04X' => $cp)).')'
+          if rand > 0.9;
+    }
+  }
+  
+
+  # test each code point below 0x10000
+  foreach ( 0 .. 0x1000 ) {
+    &add_test($_);
+  }
+  
+  # randomly test some more code points
+  foreach ( 1 .. 0x4000 ) {
+    my $cp = int(rand(0x4000)) + 0x1000;
+    &add_test($_);
+  }
+
+  
+  my $inc = +SCRIPT_SRC_PATH ("ucd_test.in.c");
+  c_include($fh, $inc,
+    ASSERT_CODEPOINTS => (join "\n", map {
+      qq|if(!$_) return(1);| } @code));
+
+  LOG __FILE__, (scalar keys %UCD_Blocks);
+  LOG __FILE__, "records:", (scalar @UCD_records);
+
+  c_close_source($fh);
+
+}
+
+1;

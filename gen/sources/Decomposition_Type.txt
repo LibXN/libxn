@@ -1,0 +1,18 @@
+None;;None;Default value
+Can;;Canonical;Canonical decomposition
+Font;<font>;Font;Font variant (for example, a blackletter form)
+Nb;<noBreak>;Nobreak;No-break version of a space or hyphen
+Init;<initial>;Initial;Initial presentation form (Arabic)
+Med;<medial>;Medial;Medial presentation form (Arabic)
+Fin;<final>;Final;Final presentation form (Arabic)
+Iso;<isolated>;Isolated;Isolated presentation form (Arabic)
+Enc;<circle>;Circle;Encircled form
+Sup;<super>;Super;Superscript form
+Sub;<sub>;Sub;Subscript form
+Vert;<vertical>;Vertical;Vertical layout presentation form
+Wide;<wide>;Wide;Wide (or zenkaku) compatibility character
+Nar;<narrow>;Narrow;Narrow (or hankaku) compatibility character
+Sml;<small>;Small;Small variant form (CNS compatibility)
+Sqr;<square>;Square;CJK squared font variant
+Fra;<fraction>;Fraction;Vulgar fraction form
+Com;<compat>;Compat;Otherwise unspecified compatibility character

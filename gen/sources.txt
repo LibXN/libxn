@@ -1,0 +1,18 @@
+Readme;UNIDATA/ReadMe.txt;http://www.unicode.org/Public/UNIDATA/ReadMe.txt;
+UnicodeData;UNIDATA/UnicodeData.txt;http://www.unicode.org/Public/UNIDATA/UnicodeData.txt;
+General_Category;General_Category.txt;;Table 12. General_Category Values
+Bidi_Class;Bidi_Class.txt;;Table 13. Bidi_Class Values
+Decomposition_Type;Decomposition_Type.txt;;
+Joining_Type;Joining_Type.txt;;
+Compatibility_Formatting;Compatibility_Formatting.txt;Table 14. Compatibility Formatting Tags
+NF_Quick_Check;NF_Quick_Check.txt;;Normalization Form Quick_Check Values
+Blocks;UNIDATA/Blocks.txt;http://www.unicode.org/Public/UNIDATA/Blocks.txt;
+Scripts;UNIDATA/Scripts.txt;http://www.unicode.org/Public/UNIDATA/Scripts.txt;
+CaseFolding;UNIDATA/CaseFolding.txt;http://www.unicode.org/Public/UNIDATA/CaseFolding.txt;
+DerivedNormalizationProps;UNIDATA/DerivedNormalizationProps.txt;http://www.unicode.org/Public/UNIDATA/DerivedNormalizationProps.txt;
+ArabicShaping;UNIDATA/ArabicShaping.txt;http://www.unicode.org/Public/UNIDATA/ArabicShaping.txt;
+RFC5892_Property;RFC5892_Property.txt;;Derived property values according to rfc5892
+RFC5892;rfc/rfc5892.txt;http://www.ietf.org/rfc/rfc5892.txt;
+CompositionExclusions;UNIDATA/CompositionExclusions.txt;;
+UTS46_Mapping;UTS46/IdnaMappingTable.txt;;
+UTS46_Status;UTS46_Status.txt;;

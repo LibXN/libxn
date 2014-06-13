@@ -1,0 +1,30 @@
+Lu;Uppercase_Letter;An uppercase letter
+Ll;Lowercase_Letter;A lowercase letter
+Lt;Titlecase_Letter;A digraphic character, with first part uppercase
+Lm;Modifier_Letter;A modifier letter
+Lo;Other_Letter;Other letters, including syllables and ideographs
+Mn;Nonspacing_Mark;A nonspacing combining mark (zero advance width)
+Mc;Spacing_Mark;A spacing combining mark (positive advance width)
+Me;Enclosing_Mark;An enclosing combining mark
+Nd;Decimal_Number;A decimal digit
+Nl;Letter_Number;A letterlike numeric character
+No;Other_Number;A numeric character of other type
+Pc;Connector_Punctuation;A connecting punctuation mark, like a tie
+Pd;Dash_Punctuation;A dash or hyphen punctuation mark
+Ps;Open_Punctuation;An opening punctuation mark (of a pair)
+Pe;Close_Punctuation;A closing punctuation mark (of a pair)
+Pi;Initial_Punctuation;An initial punctuation mark
+Pf;Final_Punctuation;A final quotation mark
+Po;Other_Punctuation;A punctuation mark of other type
+Sm;Math_Symbol;A symbol of primarily mathematical use
+Sc;Currency_Symbol;A currency sign
+Sk;Modifier_Symbol;A non-letterlike modifier symbol
+So;Other_Symbol;A symbol of other type
+Zs;Space_Separator;A space character (of various non-zero widths)
+Zl;Line_Separator;U+2028 LINE SEPARATOR only
+Zp;Paragraph_Separator;U+2029 PARAGRAPH SEPARATOR only
+Cc;Control;A C0 or C1 control code
+Cf;Format;A format control character
+Cs;Surrogate;A surrogate code point
+Co;Private_Use;A private-use character
+Cn;Unassigned;A reserved unassigned code point or a noncharacter

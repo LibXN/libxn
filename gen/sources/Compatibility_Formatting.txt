@@ -1,0 +1,16 @@
+<font>;Font variant (for example, a blackletter form)
+<noBreak>;No-break version of a space or hyphen
+<initial>;Initial presentation form (Arabic)
+<medial>;Medial presentation form (Arabic)
+<final>;Final presentation form (Arabic)
+<isolated>;Isolated presentation form (Arabic)
+<circle>;Encircled form
+<super>;Superscript form
+<sub>;Subscript form
+<vertical>;Vertical layout presentation form
+<wide>;Wide (or zenkaku) compatibility character
+<narrow>;Narrow (or hankaku) compatibility character
+<small>;Small variant form (CNS compatibility)
+<square>;CJK squared font variant
+<fraction>;Vulgar fraction form
+<compat>;Otherwise unspecified compatibility character

@@ -1,0 +1,6 @@
+R;right-joining
+L;left-joining
+D;dual-joining
+C;join-causing
+U;non-joining
+T;transparent

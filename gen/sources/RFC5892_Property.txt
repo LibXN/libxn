@@ -1,0 +1,5 @@
+UNASSIGNED;Those code points that are not designated in the Unicode Standard.
+DISALLOWED;Those that should clearly not be included in IDNs.
+CONTEXTJ;CONTEXTUAL RULE REQUIRED: Join_controls
+CONTEXTO;CONTEXTUAL RULE REQUIRED: other characters
+PVALID;PROTOCOL VALID: Those that are allowed to be used in IDNs.

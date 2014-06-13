@@ -1,0 +1,19 @@
+L;Left_To_Right;Any strong left-to-right character
+LRE;Left_To_Right_Embedding;U+202A: The LR embedding control
+LRO;Left_To_Right_Override;U+202D: The LR override control
+R;Right_To_Left;Any strong right-to-left (non-Arabic-type) character
+AL;Arabic_Letter;Any strong right-to-left (Arabic-type) character
+RLE;Right_To_Left_Embedding;U+202B: The RL embedding control
+RLO;Right_To_Left_Override;U+202E: The RL override control
+PDF;Pop_Directional_Format;U+202C: terminates an embedding or override control
+EN;European_Number;Any ASCII digit or Eastern Arabic-Indic digit
+ES;European_Separator;Plus and minus signs
+ET;European_Terminator;A terminator in a numeric format context, includes currency signs
+AN;Arabic_Number;Any Arabic-Indic digit
+CS;Common_Separator;Commas, colons, and slashes
+NSM;Nonspacing_Mark;Any nonspacing mark
+BN;Boundary_Neutral;Most format characters, control codes, or noncharacters
+B;Paragraph_Separator;Various newline characters
+S;Segment_Separator;Various segment-related control codes
+WS;White_Space;Spaces
+ON;Other_Neutral;Most other symbols and punctuation marks

@@ -1,0 +1,7 @@
+valid;The code point is valid, and not modified.
+ignored;The code point is removed: this is equivalent to mapping the code point to an empty string.
+mapped;The code point is replaced in the string by the value for the mapping.
+deviation;The code point is either mapped or valid, depending on whether the processing is transitional or not.
+disallowed;The code point is not allowed.
+disallowed_STD3_valid;The status is disallowed if UseSTD3ASCIIRules=true, otherwise valid.
+disallowed_STD3_mapped;The status is disallowed if UseSTD3ASCIIRules=true, otherwise mapped.

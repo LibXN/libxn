@@ -1,0 +1,8 @@
+NFC_N;NFC_Quick_Check=No
+NFC_M;NFC_Quick_Check=Maybe
+NFD_N;NFD_Quick_Check=No
+NFD_M;NFD_Quick_Check=Maybe
+NFKC_N;NFKC_Quick_Check=No
+NFKC_M;NFKC_Quick_Check=Maybe
+NFKD_N;NFKD_Quick_Check=No
+NFKD_M;NFKD_Quick_Check=Maybe
