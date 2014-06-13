@@ -1,0 +1,534 @@
+2011-02-04 21:48  Sebastian Boethin <debug@script1.net>
+
+	* win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin/Debug,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin/Release:
+	  
+	  cleanup: bin folders
+
+2011-02-04 21:47  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h, src/mscli.h, src/typedef.h,
+	  win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters, win32/vc/IDNA2/Stdafx.h,
+	  win32/vc/IDNA2/dllmain.cpp:
+	  
+	  def::type<T> experiments added: dllmain.cpp
+
+2011-02-03 23:37  Sebastian Boethin <debug@script1.net>
+
+	* src/typedef.h:
+	  
+	  namespace def experiments
+
+2011-02-03 23:13  Sebastian Boethin <debug@script1.net>
+
+	* Makefile.am, config.h.in, configure:
+	  
+	  
+
+2011-02-03 23:10  Sebastian Boethin <debug@script1.net>
+
+	* configure.ac:
+	  
+	  ensure CXX_STD / CXX_CLI having value
+
+2011-02-03 23:07  Sebastian Boethin <debug@script1.net>
+
+	* src/typedef.h:
+	  
+	  added: namespace def
+
+2011-02-03 22:51  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h, src/typedef.h,
+	  src/unicode.cpp, src/unicode.h:
+	  
+	  added: namespace def
+
+2011-02-03 22:45  Sebastian Boethin <debug@script1.net>
+
+	* configure.ac:
+	  
+	  added CXX_STD value
+
+2011-02-03 22:36  Sebastian Boethin <debug@script1.net>
+
+	* src/config.win32.h, src/mscli.h, src/typedef.h:
+	  
+	  typedef experiments
+
+2011-02-03 22:10  Sebastian Boethin <debug@script1.net>
+
+	* src/config.win32.h:
+	  
+	  
+
+2011-02-03 22:05  Sebastian Boethin <debug@script1.net>
+
+	* src/config.win32.h, src/typedef.h, win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters:
+	  
+	  win32 fixes CXX_STD / CXX_CLI
+
+2011-02-03 22:00  Sebastian Boethin <debug@script1.net>
+
+	* configure.ac:
+	  
+	  
+
+2011-02-03 21:33  Sebastian Boethin <debug@script1.net>
+
+	* configure.ac:
+	  
+	  added: CXX_STD flag
+
+2011-02-03 21:08  Sebastian Boethin <debug@script1.net>
+
+	* configure, m4/ac_boost_shared_ptr.m4, src/config.win32.h,
+	  src/def.h, src/idna2.h, src/mscli.h, src/typedef.h,
+	  src/unicode.cpp, src/unicode.h:
+	  
+	  smart ptr experiments
+
+2011-02-03 00:55  Sebastian Boethin <debug@script1.net>
+
+	* ChangeLog, Makefile.am, Makefile.in, config.h.in, configure,
+	  configure.ac, m4, m4/ac_boost_shared_ptr.m4,
+	  m4/ac_cxx_exceptions.m4, m4/ac_cxx_have_std.m4,
+	  m4/ac_cxx_namespaces.m4, m4/ac_header_stdcxx_tr1.m4,
+	  m4/ac_std_tr1_shared_ptr.m4, m4/ax_boost_base.m4,
+	  src/Makefile.in, tests/Makefile.in:
+	  
+	  added: autoconf checks, m4 macros
+
+2011-02-02 20:20  Sebastian Boethin <debug@script1.net>
+
+	* src/config.win32.h, src/def.h, src/unicode.cpp, src/win32.h,
+	  win32/vc/IDNA2.c/IDNA2.C.vcxproj,
+	  win32/vc/IDNA2.c/IDNA2.C.vcxproj.filters,
+	  win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters, win32/vc/IDNA2/targetver.h:
+	  
+	  added: config.win32.h
+
+2011-02-01 23:58  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/AssemblyInfo.cpp, win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters, win32/vc/IDNA2/Stdafx.h:
+	  
+	  win32 fixes
+
+2011-02-01 23:58  Sebastian Boethin <debug@script1.net>
+
+	* src/def.h, src/win32.h:
+	  
+	  added: def.h
+
+2011-02-01 23:15  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Debug_MSCLI, win32/vc/IDNA2/Debug_Native,
+	  win32/vc/IDNA2/Release_MSCLI, win32/vc/IDNA2/Release_Native:
+	  
+	  win32 fixes
+
+2011-02-01 23:14  Sebastian Boethin <debug@script1.net>
+
+	* win32/bin, win32/bin/Debug, win32/bin/Debug_CLR,
+	  win32/bin/Debug_MSCLI, win32/bin/Debug_Native,
+	  win32/bin/Debug_STD, win32/bin/Release, win32/bin/Release_CLR,
+	  win32/bin/Release_MSCLI, win32/bin/Release_Native,
+	  win32/bin/Release_STD, win32/vc/IDNA2, win32/vc/IDNA2/Debug_CLR,
+	  win32/vc/IDNA2/Debug_STD, win32/vc/IDNA2/Release_CLR,
+	  win32/vc/IDNA2/Release_STD:
+	  
+	  win32 fixes
+
+2011-02-01 23:09  Sebastian Boethin <debug@script1.net>
+
+	* win32/bin, win32/bin/Debug_CLR, win32/bin/Debug_STD,
+	  win32/bin/Release_CLR, win32/bin/Release_STD, win32/vc/IDNA2.sln,
+	  win32/vc/IDNA2/Debug_CLR, win32/vc/IDNA2/Debug_MSCLI,
+	  win32/vc/IDNA2/Debug_Native, win32/vc/IDNA2/Debug_STD,
+	  win32/vc/IDNA2/IDNA2.vcxproj, win32/vc/IDNA2/Release_CLR,
+	  win32/vc/IDNA2/Release_MSCLI, win32/vc/IDNA2/Release_Native,
+	  win32/vc/IDNA2/Release_STD:
+	  
+	  win32 fixes
+
+2011-02-01 22:52  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.h, win32/vc/IDNA2/targetver.h:
+	  
+	  win32 fixes
+
+2011-02-01 22:52  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2.sln, win32/vc/IDNA2/AssemblyInfo.cpp,
+	  win32/vc/IDNA2/IDNA2.vcxproj:
+	  
+	  win32 fixes
+
+2011-02-01 22:51  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h, src/domain.h, src/idna2.cpp,
+	  src/mscli.h, src/unicode.cpp, src/unicode.h, src/win32.h:
+	  
+	  cleanup
+
+2011-02-01 22:17  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.h:
+	  
+	  
+
+2011-02-01 22:13  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.cpp, win32/vc/IDNA2/stdafx.cpp:
+	  
+	  
+
+2011-02-01 22:13  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.h, win32/vc/IDNA2/stdafx.h:
+	  
+	  
+
+2011-02-01 22:12  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/stdafx.h:
+	  
+	  
+
+2011-02-01 22:08  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.h, win32/vc/IDNA2/stdafx.h:
+	  
+	  
+
+2011-02-01 22:07  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc/IDNA2/Stdafx.cpp, win32/vc/IDNA2/stdafx.cpp:
+	  
+	  
+
+2011-02-01 01:06  Sebastian Boethin <debug@script1.net>
+
+	* libtool, stamp-h1:
+	  
+	  cleanup
+
+2011-02-01 01:04  Sebastian Boethin <debug@script1.net>
+
+	* ChangeLog:
+	  
+	  ChangeLog
+
+2011-02-01 00:54  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp:
+	  
+	  cleanup
+
+2011-02-01 00:38  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h:
+	  
+	  cleanup
+
+2011-02-01 00:29  Sebastian Boethin <debug@script1.net>
+
+	* tests/Makefile.am, tests/Makefile.in, tests/tests_unicode.cpp:
+	  
+	  gnu c++ test working
+
+2011-02-01 00:27  Sebastian Boethin <debug@script1.net>
+
+	* src/unicode.cpp:
+	  
+	  gnu c++ test working
+
+2011-02-01 00:15  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.h, src/mscli.h:
+	  
+	  fixed: cross compilation
+
+2011-02-01 00:08  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h, src/unicode.cpp:
+	  
+	  shared_ptr null initializer removed
+
+2011-01-31 23:42  Sebastian Boethin <debug@script1.net>
+
+	* win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/Module1.vb,
+	  win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters:
+	  
+	  update: win32 compilance
+
+2011-01-31 23:42  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/codepoint.h, src/idna2.h, src/mscli.h,
+	  src/win32.h:
+	  
+	  update: win32 compilance
+
+2011-01-30 09:51  Sebastian Boethin <debug@script1.net>
+
+	* tests/tests_unicode.cpp:
+	  
+	  trying std::tr1::shared_ptr
+
+2011-01-30 09:41  Sebastian Boethin <debug@script1.net>
+
+	* win32/tests/VC/IDNA2.Tests, win32/tests/VC/IDNA2.Tests/Debug,
+	  win32/tests/VC/IDNA2.Tests/IDNA2.Tests.sdf,
+	  win32/tests/VC/IDNA2.Tests/IDNA2.Tests.suo,
+	  win32/tests/VC/IDNA2.Tests/Release,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/UnicodeTests.vcxproj.user,
+	  win32/tests/VC/IDNA2.Tests/ipch:
+	  
+	  cleanup: win32/tests/VC
+
+2011-01-30 09:36  Sebastian Boethin <debug@script1.net>
+
+	* src/codepoint.cpp, src/idna2.h, tests/test1.cpp,
+	  tests/tests_unicode.cpp, win32/tests/VC,
+	  win32/tests/VC/IDNA2.Tests, win32/tests/VC/IDNA2.Tests/Debug,
+	  win32/tests/VC/IDNA2.Tests/Debug/IDNA2.Tests.exe,
+	  win32/tests/VC/IDNA2.Tests/Debug/IDNA2.Tests.ilk,
+	  win32/tests/VC/IDNA2.Tests/Debug/IDNA2.Tests.pdb,
+	  win32/tests/VC/IDNA2.Tests/Debug/UnicodeTests.exe,
+	  win32/tests/VC/IDNA2.Tests/Debug/UnicodeTests.ilk,
+	  win32/tests/VC/IDNA2.Tests/Debug/UnicodeTests.pdb,
+	  win32/tests/VC/IDNA2.Tests/IDNA2.Tests.sdf,
+	  win32/tests/VC/IDNA2.Tests/IDNA2.Tests.sln,
+	  win32/tests/VC/IDNA2.Tests/IDNA2.Tests.suo,
+	  win32/tests/VC/IDNA2.Tests/Release,
+	  win32/tests/VC/IDNA2.Tests/Release/UnicodeTests.exe,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/CL.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/CL.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.Build.CppClean.log,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.exe.embed.manifest,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.exe.embed.manifest.res,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.exe.intermediate.manifest,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.lastbuildstate,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.log,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests.pch,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/UnicodeTests_manifest.rc,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/cl.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2704-cvtres.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2704-cvtres.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2704.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2704.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2908-cvtres.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2908-cvtres.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2908.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2908.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2940-cvtres.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2940-cvtres.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2940.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.2940.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/link.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/mt.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/mt.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/mt.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/rc.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/rc.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/rc.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/stdafx.obj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/tests_unicode.obj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/unicode.obj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/vc100.idb,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Debug/vc100.pdb,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/ReadMe.txt,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/CL.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/CL.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/UnicodeTests.Build.CppClean.log,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/UnicodeTests.exe.intermediate.manifest,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/UnicodeTests.lastbuildstate,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/UnicodeTests.log,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/UnicodeTests.pch,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/cl.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/link.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/link.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/link.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/mt.command.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/mt.read.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/mt.write.1.tlog,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/stdafx.obj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/unicode.obj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/Release/vc100.pdb,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/UnicodeTests.vcxproj,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/UnicodeTests.vcxproj.filters,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/UnicodeTests.vcxproj.user,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/stdafx.cpp,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/stdafx.h,
+	  win32/tests/VC/IDNA2.Tests/UnicodeTests/targetver.h,
+	  win32/tests/VC/IDNA2.Tests/ipch,
+	  win32/tests/VC/IDNA2.Tests/ipch/idna2.tests-cd53e911,
+	  win32/tests/VC/IDNA2.Tests/ipch/idna2.tests-cd53e911/idna2.ipch,
+	  win32/tests/VC/IDNA2.Tests/ipch/unicodetests-e6fd9b27,
+	  win32/tests/VC/IDNA2.Tests/ipch/unicodetests-e6fd9b27/unicodetests-4d7d7380.ipch,
+	  win32/tests/VC/IDNA2.Tests/ipch/unicodetests-e6fd9b27/unicodetests-a104cb46.ipch,
+	  win32/vc, win32/vc/IDNA2.sln:
+	  
+	  added: win32/tests/VC
+
+2011-01-28 22:08  Sebastian Boethin <debug@script1.net>
+
+	* config.h.in, configure, configure.ac, src/codepoint.cpp,
+	  src/codepoint.h, tests/test1.cpp:
+	  
+	  involving tr1::shared_ptr
+
+2011-01-26 23:57  Sebastian Boethin <debug@script1.net>
+
+	* ., ChangeLog, tests/Makefile.am, tests/Makefile.in:
+	  
+	  update ChangeLog by svn2cl
+
+2011-01-26 22:48  Sebastian Boethin <debug@script1.net>
+
+	* Makefile.am, Makefile.in, configure, configure.ac, src/.deps,
+	  src/Makefile.am, src/Makefile.in, tests/Makefile.am,
+	  tests/Makefile.in, tests/test1.cpp:
+	  
+	  added: tests/test1.cpp
+
+2011-01-26 20:46  Sebastian Boethin <debug@script1.net>
+
+	* gen/ucd.pl, gen/ucd_block.pl, gen/ucd_records.pl,
+	  src/codepoint.cpp, src/codepoint.h, src/ucd.c, src/ucd_bc.h,
+	  src/ucd_block.h, src/ucd_dt.h, src/ucd_gc.h, src/ucd_script.h,
+	  src/unicode.cpp, src/unicode.h, tests/ucd_test.c:
+	  
+	  cleanup
+
+2011-01-26 00:56  Sebastian Boethin <debug@script1.net>
+
+	* win32/tests, win32/tests/VB.NET,
+	  win32/tests/VB.NET/ConsoleApplication1,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1.sln,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/ConsoleApplication1.vbproj,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/Module1.vb,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Application.Designer.vb,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Application.myapp,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/AssemblyInfo.vb,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Resources.Designer.vb,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Resources.resx,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Settings.Designer.vb,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/My
+	  Project/Settings.settings,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/app.config,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin/Debug,
+	  win32/tests/VB.NET/ConsoleApplication1/ConsoleApplication1/bin/Release:
+	  
+	  added: win32/tests: VB.NET/ConsoleApplication1
+
+2011-01-26 00:34  Sebastian Boethin <debug@script1.net>
+
+	* ., Makefile, config.h, config.log, config.status, src,
+	  src/Makefile:
+	  
+	  cleanup: files created by ./configure
+
+2011-01-25 23:57  Sebastian Boethin <debug@script1.net>
+
+	* win32/vc, win32/vc/IDNA2, win32/vc/IDNA2.c,
+	  win32/vc/IDNA2.c/Debug, win32/vc/IDNA2.c/IDNA2.C.vcxproj.user,
+	  win32/vc/IDNA2.c/Release, win32/vc/IDNA2.sdf, win32/vc/IDNA2.suo,
+	  win32/vc/IDNA2/Debug_MSCLI, win32/vc/IDNA2/Debug_Native,
+	  win32/vc/IDNA2/IDNA2.vcxproj.user, win32/vc/IDNA2/Release_MSCLI,
+	  win32/vc/IDNA2/Release_Native:
+	  
+	  win32/vc cleanup
+
+2011-01-25 23:51  Sebastian Boethin <debug@script1.net>
+
+	* win32, win32/bin, win32/bin/Debug, win32/bin/Debug_MSCLI,
+	  win32/bin/Debug_Native, win32/bin/Release,
+	  win32/bin/Release_MSCLI, win32/bin/Release_Native, win32/vc,
+	  win32/vc/IDNA2, win32/vc/IDNA2.c, win32/vc/IDNA2.c/Debug,
+	  win32/vc/IDNA2.c/IDNA2.C.vcxproj,
+	  win32/vc/IDNA2.c/IDNA2.C.vcxproj.filters,
+	  win32/vc/IDNA2.c/IDNA2.C.vcxproj.user,
+	  win32/vc/IDNA2.c/ReadMe.txt, win32/vc/IDNA2.c/Release,
+	  win32/vc/IDNA2.sdf, win32/vc/IDNA2.sln, win32/vc/IDNA2.suo,
+	  win32/vc/IDNA2/AssemblyInfo.cpp, win32/vc/IDNA2/Debug_MSCLI,
+	  win32/vc/IDNA2/Debug_Native, win32/vc/IDNA2/IDNA2.vcxproj,
+	  win32/vc/IDNA2/IDNA2.vcxproj.filters,
+	  win32/vc/IDNA2/IDNA2.vcxproj.user, win32/vc/IDNA2/ReadMe.txt,
+	  win32/vc/IDNA2/Release_MSCLI, win32/vc/IDNA2/Release_Native,
+	  win32/vc/IDNA2/Stdafx.cpp, win32/vc/IDNA2/Stdafx.h:
+	  
+	  win32 folder added
+
+2011-01-25 22:23  Sebastian Boethin <debug@script1.net>
+
+	* svnserve:
+	  
+	  
+
+2011-01-25 22:15  Sebastian Boethin <debug@script1.net>
+
+	* gen, gen/generated:
+	  
+	  ignore generated
+
+2011-01-25 22:08  Sebastian Boethin <debug@script1.net>
+
+	* AUTHORS, COPYING, ChangeLog, INSTALL, Makefile, Makefile.am,
+	  Makefile.in, NEWS, README, aclocal.m4, config.guess, config.h,
+	  config.h.in, config.log, config.status, config.sub, configure,
+	  configure.ac, depcomp, gen, gen/array.pm, gen/code.pm,
+	  gen/enum.pm, gen/generated, gen/interval.pm, gen/sources,
+	  gen/sources.txt, gen/sources/Bidi_Class.txt,
+	  gen/sources/Blocks.txt,
+	  gen/sources/Canonical_Combining_Class.txt,
+	  gen/sources/Compatibility_Formatting.txt,
+	  gen/sources/Decomposition_Type.txt,
+	  gen/sources/General_Category.txt, gen/sources/UNIDATA,
+	  gen/sources/UNIDATA/Blocks.txt, gen/sources/UNIDATA/Scripts.txt,
+	  gen/sources/UNIDATA/UnicodeData.txt, gen/ucd.pl, gen/ucd_bc.pl,
+	  gen/ucd_block.pl, gen/ucd_dt.pl, gen/ucd_gc.pl,
+	  gen/ucd_records.in.c, gen/ucd_records.pl, gen/ucd_script.pl,
+	  gen/ucd_test.in.c, gen/ucd_test.pl, install-sh, libtool,
+	  ltmain.sh, missing, src, src/.deps, src/.deps/codepoint.Plo,
+	  src/.deps/domain.Plo, src/.deps/idna2.Plo, src/.deps/ucd.Plo,
+	  src/.deps/unicode.Plo, src/.deps/utf8.Plo, src/Makefile,
+	  src/Makefile.am, src/Makefile.in, src/codepoint.cpp,
+	  src/codepoint.h, src/domain.cpp, src/domain.h, src/idna2.cpp,
+	  src/idna2.h, src/mscli.h, src/stdafx.h, src/ucd.c, src/ucd.h,
+	  src/ucd_bc.h, src/ucd_block.h, src/ucd_dt.h, src/ucd_gc.h,
+	  src/ucd_script.h, src/unicode.cpp, src/unicode.h, src/utf8.c,
+	  src/utf8.h, stamp-h1, svnserve, tests, tests/ucd_test.c:
+	  
+	  IDNA2 initial import
+
+2011-01-25 22:08  Sebastian Boethin <debug@script1.net>
+
+	* .:
+	  
+	  
+
